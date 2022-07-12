@@ -83,3 +83,10 @@ insert_location = '''insert into location(loc_id, street_address, postal_code, c
           (401, 'K Azerabaev', 216192, 'Tashkent', 8),
           (401, 'Satbaev', 234234, 'Almaty', 1);
     '''    
+
+task_2 = '''Select * from employee
+Where name = ‘David’ group by Name, Last_name, Salary, position'''
+
+task_3 = '''Select avg(salary) from departments'''
+
+task_4 = '''Select jobs where Средняя ЗП по должности > Больше ли общей средней ЗП group by  job_title'''
