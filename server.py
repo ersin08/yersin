@@ -1,6 +1,6 @@
-# 3ші тапсырма
+# 3-е задание
 """
-Мен бұл жерде API көтеру үшін Flask фреймворгін қолдандым
+Я использовал фреймворк Flask, чтобы протолкнуть сюда API.
 """
 
 
@@ -11,12 +11,12 @@ from json_to_xml import j_2_xml
 
 app = Flask(__name__)
 
-# POST методын қабылдайтын хэндлер
+# Обработчик, принимающий метод POST
 @app.route('/post_json', methods=['POST'])
 def handle():
     json_data = request.json
     data = json.dumps(json_data)
-    # мына жерде from json_to_xml import j_2_xml шықырып конвертация жасаймыз
+   # здесь мы будем конвертировать из json_to_xml import j_2_xml
     res = j_2_xml(data)
     print(res)
     return res
