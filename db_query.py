@@ -1,4 +1,4 @@
-# SQL тіліндегі запростар
+# Запросы в SQL
 
 create_1 = '''create table Departments_db(
                     department_id int,
