@@ -1,4 +1,4 @@
-# Тапсырма 1
+# Задание 1
 
 import psycopg2
 from psycopg2 import sql
@@ -83,7 +83,7 @@ print("Connection established to: ", data)
 
 if __name__ == "__main__":
    db = Database()
-   # Таблицаларды құру
+  # Создаем таблицы
 
    #db.create_table_1()
    #db.create_table_2()
@@ -91,7 +91,7 @@ if __name__ == "__main__":
    #db.create_table_4()
    #db.create_table_5()
 
-   # Таблицаларға мәліметтер енгізу
+  # Ввод данных в таблицы
    
    #db.insert_dep()
    #db.insert_emp()
