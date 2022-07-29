@@ -89,4 +89,4 @@ Where name = ‘David’ group by Name, Last_name, Salary, position'''
 
 task_3 = '''Select avg(salary) from departments'''
 
-task_4 = '''Select jobs where Средняя ЗП по должности > Больше ли общей средней ЗП group by  job_title'''
+
